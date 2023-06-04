@@ -40,7 +40,7 @@ export const product = {
             type: 'slug',
         },
         {
-            name: 'catergoryType',
+            name: 'category',
             title: 'category',
             type: 'reference',
             to: [

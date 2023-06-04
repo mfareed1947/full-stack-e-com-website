@@ -28,7 +28,7 @@ const NavContent: any = () => {
                     </Link>
                 </li>
                 <li className={`${popin.className} cursor-pointer ml-14 text-lg`}>
-                    <Link href={'/male'}>
+                    <Link href={'/products'}>
                         All Products
                     </Link>
                 </li>
