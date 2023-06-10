@@ -26,12 +26,11 @@ const page = async () => {
     const data: IProduct[] = await getProductData()
     return (
         <>
-            <div className="grid grid-cols-[auto,auto,auto]">
+            <div className="grid grid-cols-4 mx-auto w-full max-w-[1500px] pt-10 pl-[70px] gap-x-5 gap-y-5">
                 {
                     data.map((item: any, id) => (
                         <SmallCard key={id} item={item} />
-                    )
-                    )
+                    ))
                 }
             </div>
         </>

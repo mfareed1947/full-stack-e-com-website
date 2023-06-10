@@ -18,12 +18,12 @@ const NavContent: any = () => {
                     </Link>
                 </li>
                 <li className={`${popin.className} cursor-pointer ml-14 text-lg`}>
-                    <Link href={'/male'}>
+                    <Link href={'/female'}>
                         Female
                     </Link>
                 </li>
                 <li className={`${popin.className} cursor-pointer ml-14 text-lg`}>
-                    <Link href={'/male'}>
+                    <Link href={'/kids'}>
                         Kids
                     </Link>
                 </li>
