@@ -52,7 +52,7 @@ export const cartSlice = createSlice({
       }
 
     },
-    clearCart: (state: cartState, action: PayloadAction<number>) => {
+    clearCart: (state) => {
       state = initialState
     },
   },
